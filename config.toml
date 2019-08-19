@@ -1,3 +1,42 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://www.oscardavid.cc/"
+languageCode = "en-UK"
+defaultContentLanguage = "en"
+title = "Oscar Carmona's site"
+theme = "hallo"
+
+[Author]
+	name = "Oscar Carmona"
+
+[params]
+	
+	greeting = "Hi!"
+
+
+	[[params.links]]
+		iconset = "fas"
+        icon = "envelope-open"
+        title = "Email"
+        url = "mailto:me@oscardavid.cc"
+
+	[[params.links]]
+		iconset = "fas"
+        icon = "paper-plane"
+        title = "Telegram"
+        url = "https://t.me/OskrD"
+
+    [[params.links]]
+        icon = "github-alt"
+        title = "Github"
+        url = "https://github.com/oskrd"
+
+    [[params.links]]
+        icon = "gitlab"
+        title = "Gitlab"
+        url = "https://gitlab.com/oskrd"
+
+	
+	[params.colors]
+        background = "#003333"
+        foreground = "#cccccc"
+        hover = "#ffffff"
+
