@@ -8,7 +8,7 @@ theme = "hallo"
 	name = "Oscar Carmona"
 
 [params]
-	
+
 	greeting = "Hi!"
 
 
@@ -34,9 +34,13 @@ theme = "hallo"
         title = "Gitlab"
         url = "https://gitlab.com/oskrd"
 
-	
+		[[params.links]]
+        iconset = "fas"
+        icon = "file-alt"
+        title = "CV"
+        url = "./ODCC_cv.pdf"
+
 	[params.colors]
         background = "#003333"
         foreground = "#cccccc"
         hover = "#ffffff"
-
